@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('123.jpg'); /* Substitua pela URL da sua imagem */
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#choices {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
